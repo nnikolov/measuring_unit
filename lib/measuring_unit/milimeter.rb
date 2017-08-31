@@ -69,7 +69,7 @@ class Milimeter
   end
 
   def to_s
-    "#{@number}"
+    "#{@number} mm"
   end
 
   def nearest(param)
