@@ -33,7 +33,7 @@ class Milimeter
 
   def display
     return nil if self.nil? or self == ' ' or self == ''
-    "#{self.to_s}mm"
+    "#{self.to_s}"
   end
 
   def coerce(other)
