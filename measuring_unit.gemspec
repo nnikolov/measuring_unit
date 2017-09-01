@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["nrnickolov@yahoo.com"]
   s.homepage    = "https://github.com/nnikolov/measuring_unit"
   s.summary     = "Fractional inches and milimeters"
-  s.description = "TODO: Description of MeasuringUnit."
+  s.description = "Description of MeasuringUnit."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
