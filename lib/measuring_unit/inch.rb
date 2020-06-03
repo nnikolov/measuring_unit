@@ -96,6 +96,10 @@ class Inch < String
     self.to_r.to_f
   end
 
+  def to_s
+    display
+  end
+
   def to_mm
     Milimeter.new((self.to_f * 25.4).round(2))
   end
