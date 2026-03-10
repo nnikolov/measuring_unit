@@ -10,7 +10,7 @@ class String
   alias inches to_inch
 end
 
-class Fixnum
+class Integer
   def mm_to_inch
     Inch.mm_to_inch(self)
   end
